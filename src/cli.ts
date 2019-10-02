@@ -25,9 +25,9 @@ if (start.toString() === 'Invalid Date' ||
 
     console.log('see --help')
 } else {
-    console.log("下載區間：\n" + start.toString() + "\n ~ \n" + end.toString())
+
     main.cliFunc(start, end, destination).then(() => {
-        console.log('下載完成')
+        return 0
     })
 }
 
