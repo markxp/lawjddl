@@ -1,13 +1,15 @@
 {
   "name": "tpsv-lawjddl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a CLI tool to download judicial judgements from https://law.judicial.gov.tw",
   "main": "lib/index.js",
   "dependencies": {
+    "@pdf-lib/fontkit": "0.0.4",
     "@types/fs-promise": "^1.0.3",
     "axios": "^0.19.0",
     "commander": "^3.0.1",
     "generic-pool": "^3.7.1",
+    "pdf-lib": "^1.0.1",
     "puppeteer": "^1.19.0"
   },
   "engines": {
